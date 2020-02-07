@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','Index\IndexController@index');     //网页主页
+Route::get('/','brush\IndexController@brush');     //网页主页
